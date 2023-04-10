@@ -3,13 +3,13 @@ import { useNavigate } from "react-router-dom";
 import './StudentLogin.css'
 // import LoginUser from "../LoginUser";
 import axios from "axios";
-// import { addStudent, addUser } from "../../../Redux/Features";
-// import { useDispatch } from "react-redux";
+import { addStudent, addUser } from "../../../Redux/Features";
+import { useDispatch } from "react-redux";
 import Loading from "../../LoadingSpin/Loading";
 import Swal from 'sweetalert2'
 const StudentLogin = () => {
     const [load, setLoad] = useState(false)
-    // const dispatch = useDispatch()
+    const dispatch = useDispatch()
     const navigate = useNavigate()
     const [value, setValue] = useState({
         email: "",
@@ -51,7 +51,7 @@ const StudentLogin = () => {
                 })
                 console.log(res.data)
                 console.log(res.data.message)
-                // res.data.data.email === value.email ? dispatch(addStudent(res.data.data)) : null
+                res.data.data.email === value.email ? dispatch(addStudent(res.data.data)) : null
                 res.data.data.email === value.email ? navigate('/studentdash') : null
             })
             .catch(function (error) {
@@ -110,7 +110,7 @@ const StudentLogin = () => {
                     </div>
                     <img src="/Login.png"
                         alt="loginimg"
-                        className='LoginPic' />
+                        className='LoginPicStudent' />
                     <span className="Login_SignUp">
                         <p>Don't have an Account ? </p>
                         <button className="Login_SignUp_Bttn" onClick={() => navigate("/signup")}>Sign Up</button>
