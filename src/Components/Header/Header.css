@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Header_Main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.Header_Wrap{
+    width: 90%;
+    /* height: 10%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Header_Logo_Wrap{
+    width: 100px;
+    height: 100px;
+}
+.Header_Logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.Nav{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Header_Button{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.Header_Button_SignUp{
+    width: 150px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    background-color: #5390D9;
+    color: white;
+}
+.Header_Button_SignUp:hover{
+    background-color: white;
+    color: #5390D9;
+    border: 1px solid rgb(216, 212, 212);
+    cursor: pointer;
+}
+.Header_Button_Login{
+    width: 150px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid rgb(216, 212, 212);
+}
+.Header_Button_Login:hover{
+    background-color: #5390D9;
+    color: white;
+    cursor: pointer;
+}
