@@ -182,14 +182,14 @@
 
 }
 
-.LogInput:invalid[focused=true]~.login_err {
+.LoginInputTeacher:invalid[focused=true]~.login_err {
     display: block;
     position: relative;
     top: 20px;
     color: red;
 }
 
-.LoginInput:invalid[focused=true] {
+.LoginInputTeacher:invalid[focused=true] {
     display: block;
     position: relative;
     top: 9px;
@@ -211,11 +211,11 @@
 .SignUp_Login_Mobile b{
 color:#5390D9 ;
 }
-    .ImageWrapAdmin {
+    .ImageWrapTeacher {
         display: none;
     }
 
-    .LoginFormAdmin {
+    .LoginFormTeacher {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -225,7 +225,7 @@ color:#5390D9 ;
         height: 100vh;
     }
 
-    .LoginInput {
+    .LoginInputTeacher {
         display: flex;
         flex-direction: column;
         width: 300px;
@@ -343,7 +343,7 @@ color:#5390D9 ;
 }
 
 @media screen and (max-width: 768px) {
-    .ImageWrapAdmin {
+    .ImageWrapTeacher {
         display: none;
     }
     .SignUp_Login_Mobile{
@@ -365,7 +365,7 @@ color:#5390D9 ;
         height: 100vh;
     }
 
-    .Sign_Login_Mobile {
+    /* .Sign_Login_Mobile {
         position: absolute;
         top: 700px;
         display: flex;
@@ -375,5 +375,11 @@ color:#5390D9 ;
 
     .Sign_Login_Mobile b {
         color: #5390D9;
+    } */
+    .login-WrapTeacher{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

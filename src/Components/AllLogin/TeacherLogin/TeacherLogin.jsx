@@ -133,7 +133,7 @@ const TeacherLogin = () => {
                             <span className='Login_err'>{i.err}</span>
                         </label>
                     ))}
-                    <p className='forg' onClick={() => navigate("/forgetpassword")} >Forgot Paasword ?</p>
+                    <p className='forg' onClick={() => navigate("/forgetpassteacher")} >Forgot Paasword ?</p>
                     <button type="submit" className="LoginbttAdmin" >{load ? <Loading /> : "Login"}</button>
                      <span className="SignUp_Login_Mobile">
                           <p>Don't have an Account ? </p>

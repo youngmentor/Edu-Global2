@@ -186,14 +186,14 @@
 
 }
 
-.LogInput:invalid[focused=true]~.login_err {
+.LoginInputAdmin:invalid[focused=true]~.login_err {
     display: block;
     position: relative;
     top: 20px;
     color: red;
 }
 
-.LoginInput:invalid[focused=true] {
+.LoginInputAdmin:invalid[focused=true] {
     display: block;
     position: relative;
     top: 9px;
@@ -229,7 +229,7 @@ color:#5390D9 ;
         height: 100vh;
     }
 
-    .LoginInput {
+    .LoginInputAdmin {
         display: flex;
         flex-direction: column;
         width: 300px;

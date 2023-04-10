@@ -9,7 +9,7 @@ import Loading from "../../LoadingSpin/Loading";
 import Swal from 'sweetalert2'
 const StudentLogin = () => {
     const [load, setLoad] = useState(false)
-    const dispatch = useDispatch()
+    // const dispatch = useDispatch()
     const navigate = useNavigate()
     const [value, setValue] = useState({
         email: "",
@@ -93,7 +93,7 @@ const StudentLogin = () => {
                             <span className='Login_err'>{i.err}</span>
                         </label>
                     ))}
-                    <p className='forg' onClick={() => navigate("/forgetpassword")} >Forgot Paasword ?</p>
+                    <p className='forg' onClick={() => navigate("/forgetpassstudent")} >Forgot Paasword ?</p>
                     <button type="submit" className="LoginbttAdmin" >{load ? <Loading /> : "Login"}</button>
                     <span className="SignUp_Login_Mobile">
                         <p>Don't have an Account ? </p>
