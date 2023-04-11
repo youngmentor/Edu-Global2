@@ -68,9 +68,9 @@ const StudentLogin = () => {
 
     return (
         <main className="LoginStudent" >
-            <form onSubmit={handleSubmit} className="login-WrapAdmin">
+            <form onSubmit={handleSubmit} className="login-wrapStudent">
 
-                <div className="LoginFormAdmin">
+                <div className="LoginFormStudent">
 
                     < div className="UserLogin">
                         <div className="Teacher" onClick={() => navigate("/login/loginteacher")}>Teacher</div>
@@ -78,12 +78,12 @@ const StudentLogin = () => {
                         <div className="Students" onClick={() => navigate("/login/loginstudent")}   >Student</div>
                     </div>
                     <div className="LoginType">
-                        {/* <p>I'M an Admin</p> */}
+                        <p>Welcome back Student</p>
                     </div>
                     {field.map((i) => (
                         <label key={i.id}>
                             <input
-                                className="LoginInputAdmin"
+                                className="LoginInputStudent"
                                 type={i.type}
                                 name={i.name}
                                 placeholder={i.placeholder}
@@ -101,7 +101,7 @@ const StudentLogin = () => {
                     </span>
                 </div>
 
-                <div className="ImageWrapAdmin">
+                <div className="ImageWrapStudent">
                     <div className="login-text">
                         <h1>Start managing now</h1>
                         <p>Stop struggling with common tasks and focus<br />

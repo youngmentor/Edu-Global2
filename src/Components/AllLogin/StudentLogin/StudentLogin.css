@@ -8,24 +8,24 @@
 
 .LoginStudent{
     width: 100%;
-    /* height: 100%; */
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     
     /* flex-direction: column; */
 }.login-wrapStudent{
-    width: 100%;
-    margin-top: 10px;
+    width: 98%;
+    /* margin-top: 10px; */
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-between;
     flex-direction: row-reverse;
     flex-wrap: wrap;
 }
 .ImageWrapStudent{
-    width: 40%;
-    height: 100vh;
+    width: 45%;
+    height: 98vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,7 +34,10 @@
     background-color: #5390D9;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    clip-path: polygon(19% 2%, 76% 2%, 100% 20%, 100% 80%, 76% 98%, 19% 98%, 0% 80%, 0% 20%);
+    border-radius: 12px 0px 12px 0px;
+    border: 1px solid #5390D9;
+    padding: 10px;
+    outline: none;
     
 }
 .Login_SignUp{
@@ -55,7 +58,7 @@
         display: flex;
         flex-direction: column;
         width: 400px;
-        height: 40px;
+        height: 50px;
         border-radius: 10px;
         margin-top:20px;
         padding: 15px;
@@ -64,9 +67,11 @@
 .LoginFormStudent{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     margin-top: 10px;
-    width: 40%;
+    width: 50%;
+    height: 98vh;
 }
 .LoginType{
     margin-top: 15px;
@@ -153,7 +158,8 @@
     color: black;
     cursor: pointer;
 position: relative;  
-left: 100px; 
+left: 100px;
+margin-top: 10px; 
 }
 .UserLogin{
     width: 500px;
@@ -168,7 +174,7 @@ left: 100px;
     .ImageWrap{
         display: none;
     }
-    .LoginInput{
+    .LoginInputStudent{
         display: flex;
         flex-direction: column;
         width: 300px;
@@ -250,5 +256,12 @@ left: 100px;
     }
     .Login{
         margin-top: 70px;
+    }
+    .LoginFormStudent{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
     }
 }

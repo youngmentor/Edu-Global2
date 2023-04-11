@@ -28,7 +28,7 @@
 
 .login-WrapTeacher {
     width: 98%;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -182,6 +182,14 @@
 
 }
 
+.forg {
+    color: black;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+    margin-top: 10px;
+}
+
 .LoginInputTeacher:invalid[focused=true]~.login_err {
     display: block;
     position: relative;
@@ -203,14 +211,17 @@
     .verticalSign {
         display: none;
     }
-.SignUp_Login_Mobile{
-    display: flex;
-    gap: 10px;
-    margin-top: 20px;
-}
-.SignUp_Login_Mobile b{
-color:#5390D9 ;
-}
+
+    .SignUp_Login_Mobile {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .SignUp_Login_Mobile b {
+        color: #5390D9;
+    }
+
     .ImageWrapTeacher {
         display: none;
     }
@@ -232,6 +243,11 @@ color:#5390D9 ;
         height: 40px;
         border-radius: 10px;
         margin-top: 20px;
+    }
+
+    .LoginbttAdmin {
+        width: 300px;
+        height: 40px;
     }
 
     .Admin {
@@ -328,7 +344,8 @@ color:#5390D9 ;
         color: white;
         text-align: center;
     }
-/* 
+
+    /* 
     .Sign_Login_Mobile {
         display: flex;
         position: relative;
@@ -346,15 +363,18 @@ color:#5390D9 ;
     .ImageWrapTeacher {
         display: none;
     }
-    .SignUp_Login_Mobile{
+
+    .SignUp_Login_Mobile {
         display: flex;
         gap: 10px;
         margin-top: 20px;
     }
-    .SignUp_Login_Mobile b{
-    color:#5390D9 ;
-    cursor: pointer;
+
+    .SignUp_Login_Mobile b {
+        color: #5390D9;
+        cursor: pointer;
     }
+
     .LoginFormAdmin {
         display: flex;
         align-items: center;
@@ -376,7 +396,7 @@ color:#5390D9 ;
     .Sign_Login_Mobile b {
         color: #5390D9;
     } */
-    .login-WrapTeacher{
+    .login-WrapTeacher {
         width: 100%;
         display: flex;
         align-items: center;

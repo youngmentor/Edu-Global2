@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
 * {
     margin: 0px;
     padding: 0px;
@@ -100,6 +102,11 @@
     font-size: 20px;
 }
 
+.LoginType {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+
 .login-text h1 {
     font-size: 40px;
     margin-bottom: 25px;
@@ -186,6 +193,14 @@
 
 }
 
+.forg {
+    color: black;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+    margin-top: 10px;
+}
+
 .LoginInputAdmin:invalid[focused=true]~.login_err {
     display: block;
     position: relative;
@@ -207,14 +222,17 @@
     .verticalSign {
         display: none;
     }
-.SignUp_Login_Mobile{
-    display: flex;
-    gap: 10px;
-    margin-top: 20px;
-}
-.SignUp_Login_Mobile b{
-color:#5390D9 ;
-}
+
+    .SignUp_Login_Mobile {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .SignUp_Login_Mobile b {
+        color: #5390D9;
+    }
+
     .ImageWrapAdmin {
         display: none;
     }
@@ -332,7 +350,8 @@ color:#5390D9 ;
         color: white;
         text-align: center;
     }
-/* 
+
+    /* 
     .Sign_Login_Mobile {
         display: flex;
         position: relative;
@@ -350,15 +369,18 @@ color:#5390D9 ;
     .ImageWrapAdmin {
         display: none;
     }
-    .SignUp_Login_Mobile{
+
+    .SignUp_Login_Mobile {
         display: flex;
         gap: 10px;
         margin-top: 20px;
     }
-    .SignUp_Login_Mobile b{
-    color:#5390D9 ;
-    cursor: pointer;
+
+    .SignUp_Login_Mobile b {
+        color: #5390D9;
+        cursor: pointer;
     }
+
     .LoginFormAdmin {
         display: flex;
         align-items: center;
