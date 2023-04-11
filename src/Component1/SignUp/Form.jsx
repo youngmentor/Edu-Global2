@@ -3,7 +3,7 @@ import SignUp from './SignUp'
 // import Verify from './Verify';
 import './SignUp.css'
 import { useNavigate } from 'react-router-dom'
-import Loading from '../LoadingSpin/Loading'
+import Loading from '../../LoadingSpin/Loading'
 import axios from 'axios'
 // import { ThemeContext } from '../ContextApi/Context';11
 import Swal from 'sweetalert2'

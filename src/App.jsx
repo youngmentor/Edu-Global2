@@ -6,12 +6,12 @@ import Login from './AllLogin/Login'
 import "./App.css"
 import StudentLogin from './AllLogin/StudentLogin/StudentLogin'
 import TeacherLogin from './AllLogin/TeacherLogin/TeacherLogin'
-import ForgetPasswordAmin from './Component1/ForgetPassword/ForgetPassAdmin'
-import ForgetPasswordStudent from './Component1/ForgetPassword/ForgetPassStudent'
-import ForgetPasswordTeacher from './Component1/ForgetPassword/ForgetPassTeacher'
-import ResetPasswordAmin from './Component1/ForgetPassword/ResetPasswordAdmin'
-import ResetPasswordStudent from './Component1/ForgetPassword/ResetPasswordStudent'
-import ResetPasswordTeacher from './Component1/ForgetPassword/ResetPasswordTeacher'
+import ForgetPasswordAmin from './ForgetPassword/ForgetPassAdmin'
+import ForgetPasswordStudent from './ForgetPassword/ForgetPassStudent'
+import ForgetPasswordTeacher from './ForgetPassword/ForgetPassTeacher'
+import ResetPasswordAmin from './ForgetPassword/ResetPasswordAdmin'
+import ResetPasswordStudent from './ForgetPassword/ResetPasswordStudent'
+import ResetPasswordTeacher from './ForgetPassword/ResetPasswordTeacher'
 import Form from './Component1/SignUp/Form'
 const App = () => {
   return (

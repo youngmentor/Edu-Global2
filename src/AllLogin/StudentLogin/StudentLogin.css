@@ -171,7 +171,7 @@ margin-top: 10px;
     .verticalSign{
         display: none;
     }
-    .ImageWrap{
+    .ImageWrapStudent{
         display: none;
     }
     .LoginInputStudent{
@@ -256,6 +256,18 @@ margin-top: 10px;
     }
     .Login{
         margin-top: 70px;
+    }
+    .LoginFormStudent{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+}
+@media screen and (max-width: 769px){
+    .ImageWrapStudent{
+        display: none;
     }
     .LoginFormStudent{
         width: 100%;

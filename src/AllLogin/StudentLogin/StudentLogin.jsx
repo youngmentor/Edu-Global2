@@ -5,7 +5,7 @@ import './StudentLogin.css'
 import axios from "axios";
 import { addStudent, addUser } from "../../Redux/Features";
 import { useDispatch } from "react-redux";
-import Loading from "../../Component1/LoadingSpin/Loading";
+import Loading from "../../LoadingSpin/Loading";
 import Swal from 'sweetalert2'
 const StudentLogin = () => {
     const [load, setLoad] = useState(false)

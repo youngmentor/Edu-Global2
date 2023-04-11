@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from "react";
 import { useNavigate, NavLink } from "react-router-dom";
 import './AdminLogin.css'
 import axios from 'axios';
-import Loading from "../../Component1/LoadingSpin/Loading";
+import Loading from "../../LoadingSpin/Loading";
 import { addUser } from "../../Redux/Features";
 import { clearUser } from "../../Redux/Features";
 import { useDispatch, useSelector } from "react-redux";

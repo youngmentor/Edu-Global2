@@ -2,7 +2,7 @@ import React, { useState,useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./TeacherLogin.css"
 import Login from "../Login";
-import Loading from "../../Component1/LoadingSpin/Loading";
+import Loading from "../../LoadingSpin/Loading";
 import { addTeacher } from "../../Redux/Features";
 import axios from "axios";
 // import Swal from 'sweetalert2'
