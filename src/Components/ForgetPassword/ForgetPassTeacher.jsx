@@ -19,7 +19,7 @@ const ForgetPasswordTeacher = () => {
         e.preventDefault();
         try {
             setLoad(true)
-            const response = await axios.post('https://eduglobal.onrender.com/api/admin/forgotPassword', { email });
+            const response = await axios.post('https://eduglobal.onrender.com/api/teacher/forgotPassword', { email });
             Swal.fire({
                 position: 'top-end',
                 icon: 'success',

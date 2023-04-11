@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import "./ForgetPassStudent.css"
+// import "./ForgetPassStudent.css"
 import { useRef } from 'react'
 import { MdOutlineArrowBack } from "react-icons/md";
 import { useNavigate } from 'react-router-dom';
@@ -20,7 +20,7 @@ const ForgetPasswordStudent = () => {
         e.preventDefault();
         try {
             setLoad(true)
-            const response = await axios.post('https://eduglobal.onrender.com/api/admin/forgotPassword', { email });
+            const response = await axios.post('https://eduglobal.onrender.com/api/student/forgotPassword', { email });
             Swal.fire({
                 position: 'top-end',
                 icon: 'success',
