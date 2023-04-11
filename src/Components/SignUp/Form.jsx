@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom'
 import Loading from '../LoadingSpin/Loading'
 import axios from 'axios'
 // import { ThemeContext } from '../ContextApi/Context';11
-
+import Swal from 'sweetalert2'
 const Form = () => {
   // const { login_alert } = useContext(ThemeContext)
   const navigate = useNavigate()
@@ -55,11 +55,24 @@ const Form = () => {
       event.preventDefault();
       console.log("clicked")
       const response = await axios.post("https://eduglobal.onrender.com/api/admin/sign", form);
+      Swal.fire({
+        position: 'top-end',
+        icon: 'success',
+        title: 'Sign Up successful',
+        showConfirmButton: false,
+        timer: 3000
+      })
       console.log(response.data)
       console.log(response.data.message);
-      response.status === 200 ? navigate("/loginuser/login") : null  
-      login_alert()
+      response.status === 200 ? navigate("/login/loginadmin") : null  
+      // login_alert()
     } catch (error) {
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'user already exist',
+        // footer: '<a href="">Why do I have this issue?</a>'
+      })
       console.log("error")
     }
 
