@@ -9,7 +9,7 @@ import Loading from "../../LoadingSpin/Loading";
 import Swal from 'sweetalert2'
 const StudentLogin = () => {
     const [load, setLoad] = useState(false)
-    // const dispatch = useDispatch()
+    const dispatch = useDispatch()
     const navigate = useNavigate()
     const [value, setValue] = useState({
         email: "",
