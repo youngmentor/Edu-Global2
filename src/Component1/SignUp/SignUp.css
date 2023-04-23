@@ -109,11 +109,10 @@
     height: 100vh;
     background-color: #5390D9;
     color: white;
-    border-radius: 0px 12px 12px 0px;
+    /* border-radius: 0px 12px 12px 0px; */
     border: 1px solid #5390D9;
     margin-right: 10px;
     outline: none;
-    /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 25% 100%); */
 }
 .WelcomeMess{
     display: flex;
@@ -130,7 +129,6 @@
     object-fit: contain;
     animation: slideInDown;
     animation-duration: 3s;
-
 }
 
 .sign-h3 {
