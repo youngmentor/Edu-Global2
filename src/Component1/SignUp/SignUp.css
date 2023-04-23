@@ -36,7 +36,7 @@
 }
 
 .formData {
-    width: 43%;
+    width: 50%;
     height: 100%;
     display: flex;
     /* align-items: center; */
@@ -53,7 +53,7 @@
 }
 
 .SignUpInput {
-    width: 350px;
+    width: 400px;
     border: none;
     border-bottom:1px solid gray ;
     outline: none;
@@ -72,7 +72,7 @@
 }
 
 .Signbttn {
-    width: 350px;
+    width: 400px;
     height: 40px;
     border: none;
     outline: none;
