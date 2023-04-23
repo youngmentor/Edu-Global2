@@ -194,11 +194,11 @@
         justify-content: center;
     }
 
-    .input {
+    .SignUpInput {
         width: 500px;
         border: 1px solid black;
         outline: none;
-        border-radius: 10px;
+        /* border-radius: 10px; */
         height: 70px;
         background-color: white;
     }
@@ -256,13 +256,13 @@
         top: 225px;
         left: 350px;
     }
-    .input {
-        width: 350px;
-        border: 1px solid rgb(160, 156, 156);
-        outline: none;
-        border-radius: 10px;
-        height: 40px;
-        background-color: white;
+    .SignUpInput{
+     width: 400px;
+    border: none;
+    border-bottom:1px solid gray ;
+    outline: none;
+    height: 50px;
+    background-color: white;
     }
     
     .verticalSign {
@@ -270,23 +270,20 @@
     }
     
     .signbttn {
-        width: 350px;
-        height: 40px;
-        border: none;
-        outline: none;
-        border-radius: 15px;
-        background-color: rgb(15, 94, 247);
-        color: white;
-        cursor: pointer;
-        margin-top: 15px;
-        font-size: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 15px;
+    width: 350px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #5390D9;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 20px;
     }
     .formData{
         width: 100%;
+        padding: 10px;
     }
     
     .forg {
