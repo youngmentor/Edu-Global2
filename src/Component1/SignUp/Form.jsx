@@ -32,7 +32,7 @@ const Form = () => {
       name: "password",
       type:  "password" ,
       label: "password",
-      placeholder: "Password",
+      placeholder: "Create Password",
       required: true,
       errMsg: `At least 8 characters, min 1 Uppercase 1 Lowercase 1 Number 1 special character`,
       pattern: `(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,20}`
@@ -87,11 +87,22 @@ const Form = () => {
 
   }, [form])
   return (
-    <main className="main">
-      
+    <main className="main">    
         <div className='SignUp-main' >
+        <div className='SignUpImage-contain' >
+           <div className='WelcomeMess'>
+           <h1>Welcome</h1>
+            <p> we can't wait for you to get started</p>
+           </div>
+            <img src="/SignUpI3.png"
+              alt="siignup"
+              className='SignUpImage' />             
+          </div>
           <form className="formData" onSubmit={handleSubmit}  >
-            <img src="/Edu-Global.png" alt="logo" className='SignUp_Logo' onClick={() => navigate("/")} />
+            <h3>Sign Up</h3>
+            <p>Please enter your details</p>
+            {/* <img src="/Edu-Global.png" alt="logo" className='SignUp_Logo' onClick={() => navigate("/")} /> */}
+            
             {field.map((field) => (
               <SignUp key={field.id} {...field} handleChange={handleChange} form={form[field.name]} setView={setView} view={view} />
             ))}
@@ -99,19 +110,8 @@ const Form = () => {
             <span className="Login_SignUp_Mobile">
                           <p>Already have an Account ?</p>
                           <b className="Login_SignUp_Bttn_Mobile" onClick={() => navigate("/login/loginadmin")}>Login</b>
-               </span>
+           </span>
           </form>
-          
-          <div className='SignUpImage-contain' >
-            <h1>Start <b className='SignUpText'> managing</b> your school Activity <b className='SignUpText' >now !</b></h1>
-            <img src="/SignUpI3.png"
-              alt="siignup"
-              className='SignUpImage' />
-               <span className="Login_SignUp">
-                          <p>Already have an Account ?     </p>
-                          <button className="Login_SignUp_Bttn" onClick={() => navigate("/login/loginadmin")}>Login</button>
-               </span>
-          </div>
         </div>   
     </main>
   )

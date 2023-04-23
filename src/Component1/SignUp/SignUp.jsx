@@ -14,7 +14,7 @@ const SignUp = (props) => {
   return (
    <div  className='app'>
      <div className='formwrap'>
-            <label className='label'>
+            <label className="Input-Label" >
               <input  
                  className="SignUpInput"
                  type={props.type}
