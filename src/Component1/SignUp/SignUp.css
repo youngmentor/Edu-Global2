@@ -195,12 +195,12 @@
     }
 
     .SignUpInput {
-        width: 500px;
-        border: 1px solid black;
-        outline: none;
-        /* border-radius: 10px; */
-        height: 70px;
-        background-color: white;
+        width: 400px;
+    border: none;
+    border-bottom:1px solid gray ;
+    outline: none;
+    height: 50px;
+    background-color: white;
     }
 
     .signbttn {
