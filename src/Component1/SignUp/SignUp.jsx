@@ -9,7 +9,9 @@ const SignUp = (props) => {
   const {handleChange} = props
 
   const whenFocus =()=>{
+
     setFocus(true)
+    
   }
   return (
    <div  className='app'>

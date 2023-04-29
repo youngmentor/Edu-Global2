@@ -102,7 +102,6 @@ const Form = () => {
             <h3>Sign Up</h3>
             <p>Please enter your details</p>
             {/* <img src="/Edu-Global.png" alt="logo" className='SignUp_Logo' onClick={() => navigate("/")} /> */}
-            
             {field.map((field) => (
               <SignUp key={field.id} {...field} handleChange={handleChange} form={form[field.name]} setView={setView} view={view} />
             ))}
