@@ -31,7 +31,7 @@ const App = () => {
           <Route path='resetpassadmin/:id/:token' element={<ResetPasswordAmin/>}/>
           <Route path='resetpassstudent/:id/:token' element={<ResetPasswordStudent/>}/>
           <Route path='resetpassteacher/:id/:token' element={<ResetPasswordTeacher/>}/>
-          <Route path='/admin' element={<AdminDashboard/>}/>
+          <Route path='/admin/*' element={<AdminDashboard/>}/>
         </Routes>
      </HashRouter>
     </div>
