@@ -145,6 +145,7 @@ const AdminLogin = () => {
                     ))}
                     <p className='forg' onClick={() => navigate("/forgetpassadmin")} >Forgot Paasword ?</p>
                     <button type="submit" className="LoginbttAdmin" >{load ? <Loading /> : "Login"}</button>
+                    <button className="LoginbttAdmin" onClick={() => navigate("/admin")}>Login</button>
                      <span className="SignUp_Login_Mobile">
                           <p>Don't have an Account ? </p>
                           <b className="Sign_Login_Bttn_Mobile" onClick={() => navigate("/signup")}>SignUp</b>
