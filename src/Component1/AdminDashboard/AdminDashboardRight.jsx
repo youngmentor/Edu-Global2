@@ -1,11 +1,11 @@
 import React from 'react'
-import Dashboard from './Dashboard'
+import Dashboard from './DashboardMain/Dashboard'
 import Classes from './Clas/Classes'
 import Attendance from './Attendance'
 import { Route, Routes } from 'react-router-dom'
 const AdminDashboardRight = () => {
   return (
-    <div>
+    <div className='AdminDashboardRight_Main'>
         <Routes>
             <Route path='/' element={<Dashboard/>}/>
             <Route path='/classes/*' element={<Classes/>}/>

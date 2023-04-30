@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Dashboard from './Dashboard'
+import Dashboard from './DashboardMain/Dashboard'
 import { useNavigate } from 'react-router-dom'
 import { AiFillHome, AiOutlineProfile } from "react-icons/ai";
 import { MdOutlineClass } from "react-icons/md";
