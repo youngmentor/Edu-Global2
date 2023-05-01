@@ -3,7 +3,8 @@ import "./AdminDashboard.css"
 import AdminDashboardLeft from './AdminDashboardLeft'
 import AdminDashboardRight from './AdminDashboardRight'
 import { Routes,Route } from 'react-router-dom'
-import AdminHeader from './AdminHeader'
+// import AdminHeader from './AdminHeader'
+import AdminHeader from './AdminHeader/AdminHeader'
 const AdminDashboard = () => {
   return (
     <div className='AdminDashboard_Main'>
