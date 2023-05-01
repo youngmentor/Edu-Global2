@@ -13,6 +13,7 @@ const AdminDashboardLeft = () => {
     <>
        {isOpen &&(
        <div>
+        
          <p onClick={() => navigate("/admin/classes/newclass/")}>All class</p>
         <p onClick={() => navigate("/admin/classes/addclass")}>Add class</p>
        </div>
