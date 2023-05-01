@@ -1,7 +1,7 @@
 import React from 'react'
 import Dashboard from './DashboardMain/Dashboard'
 import Classes from './Clas/Classes'
-import Attendance from './Attendance'
+import Attendance from './Attendance/Attendance'
 import { Route, Routes } from 'react-router-dom'
 const AdminDashboardRight = () => {
   return (
