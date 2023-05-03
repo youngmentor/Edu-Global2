@@ -13,11 +13,54 @@
 .AdminDasboard_Main_Left{
     width: 25%;
     height: 88vh;
+    background-color: #FB8500;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color:  #0277BD; */
-    background-color: #FB8500;
+}
+.AdminDashboardLeft_Main_Wrap{
+    width: 80%;
+    height: 80%;
+    margin-top: 20px;
+    color: white;
+    font-family: Instrument Serif;
+    /* background-color: red; */
+}
+.AdminDashboardLeft_Class{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 25px;
+    height: 10%;
+}
+.AdminDashboardLeft_ClassDrop{
+    width: 100%;
+    position:relative;
+    left: 105px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.AdminDashboardLeft_Attendance{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 25px;
+    height: 10%;
+}
+.AdminDashboardLeft_Dashboard{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 25px;
+    height: 10%; 
+    margin-left: 15px;
 }
 .AdminDashboard_Main_Right{
     width: 75%;
