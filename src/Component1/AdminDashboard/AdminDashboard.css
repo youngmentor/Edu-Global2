@@ -17,28 +17,39 @@
     display: flex;
     align-items: center;
     justify-content: center;
+   
 }
 .AdminDashboardLeft_Main_Wrap{
-    width: 80%;
-    height: 80%;
-    margin-top: 20px;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     color: white;
     font-family: Instrument Serif;
     /* background-color: red; */
+    padding: 5px;
+     overflow-y:scroll;
 }
 .AdminDashboardLeft_Class{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
     font-size: 25px;
-    height: 10%;
+    /* height: 10%; */
+}
+.AdminDashboardLeft_ClassWrap{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
 }
 .AdminDashboardLeft_ClassDrop{
     width: 100%;
     position:relative;
-    left: 105px;
+    left: 45px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -47,20 +58,43 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 40px;
     font-size: 25px;
-    height: 10%;
+    gap: 20px;
 }
 .AdminDashboardLeft_Dashboard{
-    width: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    gap: 20px;
+}
+.AdminDashboardLeft_Teacher{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
     font-size: 25px;
-    height: 10%; 
-    margin-left: 15px;
+}
+.AdminDashboardLeft_TeacherWrap{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    gap: 20px;
+}
+.AdminDashboardLeft_Student{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px; 
+}
+.AdminDashboardLeft_StudentWrap{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    gap: 20px;
 }
 .AdminDashboard_Main_Right{
     width: 75%;

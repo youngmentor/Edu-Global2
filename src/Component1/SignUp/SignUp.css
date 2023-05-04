@@ -179,6 +179,7 @@
 .Login_SignUp_Bttn_Mobile{
     color: #5390D9;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 769px) {
