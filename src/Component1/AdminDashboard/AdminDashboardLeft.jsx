@@ -72,13 +72,14 @@ const AdminDashboardLeft = () => {
       </div>
       {isTeacherNesting && TeacherDrop}
       <div className='AdminDashboardLeft_Student'>
-     <div className='AdminDashboardLeft_StudentWrap'>
-     <AiOutlineProfile />
-        <p>Student</p>
-     </div>
-     {isStudentNesting ? < MdKeyboardArrowUp onClick={() => { setIsStudentNesting(!isStudentNesting) }} style={{ fontSize: "25", cursor: "pointer" }} /> : <MdKeyboardArrowDown onClick={() => { setIsStudentNesting(!isStudentNesting) }} style={{ fontSize: "25", cursor: "pointer" }} />}
+        <div className='AdminDashboardLeft_StudentWrap'>
+          <AiOutlineProfile />
+          <p>Student</p>
+        </div>
+        {isStudentNesting ? < MdKeyboardArrowUp onClick={() => { setIsStudentNesting(!isStudentNesting) }} style={{ fontSize: "25", cursor: "pointer" }} /> : <MdKeyboardArrowDown onClick={() => { setIsStudentNesting(!isStudentNesting) }} style={{ fontSize: "25", cursor: "pointer" }} />}
       </div>
       {isStudentNesting && StudentDrop}
+    
     </div>
   )
 }

@@ -75,14 +75,12 @@ const AdminLogin = () => {
                   })
                 res.data.data.email === value.email ? dispatch(addUser(res.data.data)) : null
                 res.data.data.email === value.email ?  navigate('/admin') : null
-                // if (res.data.data.isVerifield === true ) {
-                //     navigate('/admin') 
-                //   } else {
-                //     logOut()
-                //     setLoad(false)
-                //   }
-                
-
+                if (res.data.data.isVerifield === true ) {
+                    navigate('/admin') 
+                  } else {
+                    logOut()
+                    setLoad(false)
+                  }
             })
             .catch(function (error) {
                 
