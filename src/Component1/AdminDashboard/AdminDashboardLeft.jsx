@@ -14,8 +14,8 @@ const AdminDashboardLeft = () => {
       {isOpen && (
         <div className='AdminDashboardLeft_ClassDrop'>
 
-          <p onClick={() => navigate("/admin/classes/newclass/")}>Add class</p>
-          <p onClick={() => navigate("/admin/classes/allclass")}>All class</p>
+          <p onClick={() => navigate("/admin/classes/newclass/")} style={{cursor: "pointer"}}>Add class</p>
+          <p onClick={() => navigate("/admin/classes/allclass")} style={{cursor: "pointer"}}>All class</p>
         </div>
 
       )}
@@ -26,8 +26,8 @@ const AdminDashboardLeft = () => {
       {isTeacherNesting && (
         <div className='AdminDashboardLeft_ClassDrop'>
 
-          <p onClick={() => navigate("/admin/adminteacher/allteacher/")}>All Teachet</p>
-          <p onClick={() => navigate("/admin/adminteacher/addteacher")}>Add New Teacher</p>
+          <p onClick={() => navigate("/admin/adminteacher/allteacher/")} style={{cursor: "pointer"}}>All Teachet</p>
+          <p onClick={() => navigate("/admin/adminteacher/addteacher")} style={{cursor: "pointer"}}>Add New Teacher</p>
         </div>
 
       )}
@@ -38,8 +38,8 @@ const AdminDashboardLeft = () => {
       {isStudentNesting && (
         <div className='AdminDashboardLeft_ClassDrop'>
 
-          <p onClick={() => navigate("/admin/adminstudent/allstudent/")}>All Student</p>
-          <p onClick={() => navigate("/admin/adminstudent/addstudent")}>Add New Student</p>
+          <p onClick={() => navigate("/admin/adminstudent/allstudent/")}style={{cursor: "pointer"}}>All Student</p>
+          <p onClick={() => navigate("/admin/adminstudent/addstudent")}style={{cursor: "pointer"}}>Add New Student</p>
         </div>
 
       )}
